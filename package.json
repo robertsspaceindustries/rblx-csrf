@@ -1,0 +1,34 @@
+{
+	"name": "@robertsspaceindustries/rblx-csrf",
+	"version": "1.0.0",
+	"description": "Get a Roblox CSRF token",
+	"main": "./index.js",
+	"type": "module",
+	"types": "./index.d.ts",
+	"scripts": {
+		"test": "node test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/robertsspaceindustries/rblx-csrf.git"
+	},
+	"keywords": [
+		"roblox",
+		"csrf",
+		"authentication"
+	],
+	"author": {
+		"name": "Astrid",
+		"email": "github@astrid.exposed",
+		"url": "https://robertsspaceindustri.es"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/robertsspaceindustries/rblx-csrf/issues"
+	},
+	"homepage": "https://github.com/robertsspaceindustries/rblx-csrf#readme",
+	"dependencies": {
+		"node-fetch": "^3.3.2",
+		"user-agents": "^1.0.1444"
+	}
+}
