@@ -1,6 +1,6 @@
 {
 	"name": "@robertsspaceindustries/rblx-csrf",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Get a Roblox CSRF token",
 	"main": "./index.js",
 	"type": "module",
@@ -28,7 +28,6 @@
 	},
 	"homepage": "https://github.com/robertsspaceindustries/rblx-csrf#readme",
 	"dependencies": {
-		"node-fetch": "^3.3.2",
-		"user-agents": "^1.0.1444"
+		"node-fetch": "^3.3.2"
 	}
 }

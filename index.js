@@ -1,5 +1,4 @@
 import fetch from "node-fetch";
-import UserAgent from "user-agents";
 
 /**
  * @param {String} cookie .ROBLOSECURITY
@@ -13,8 +12,7 @@ export default async function getCsrf(cookie) {
 		method: "POST",
 		headers: {
 			cookie: ".ROBLOSECURITY=" + cookie,
-			"user-agent": new UserAgent(),
 		},
-    });
-    return response.headers.get("x-csrf-token");
+	});
+	return response.headers.get("x-csrf-token");
 }
